@@ -5,3 +5,19 @@ hr {
     border-top-style: dotted;
     width: 20%;
 }
+
+h1 {
+    color: #171717;
+}
+
+h2 {
+    color: #444444;
+}
+
+h3 {
+    color: #DA0037;
+}
+
+body {
+    background-color: #EDEDED;
+}
