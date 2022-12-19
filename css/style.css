@@ -20,7 +20,10 @@ h3 {
 
 body {
     margin: 0;
-    padding: 5%;
+    padding-top: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
     background-color: #EDEDED;
 }
 
@@ -46,5 +49,7 @@ img.circular {
 
 #top-box {
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-image: url("../images/softoilbackbroundpainting.jpg");
 }
