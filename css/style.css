@@ -19,6 +19,8 @@ h3 {
 }
 
 body {
+    margin: 0;
+    padding: 5%;
     background-color: #EDEDED;
 }
 
@@ -28,15 +30,21 @@ img.avatar {
     border: dashed;
     border-width: 4px;
     border-color: #171717;
-    max-width: 80%;
+    max-width: 20%;
 }
 
 img.avatar:hover {
-    position: fixed;
-    max-width: 50%;
-    width: 50%
+    max-width: 21%;
+    width: 21%;
 }
 
 img.circular {
     border-radius: 30% 5%;
+}
+
+/* ID Selectors */
+
+#top-box {
+    text-align: center;
+    background-image: url("../images/softoilbackbroundpainting.jpg");
 }
