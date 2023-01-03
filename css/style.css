@@ -36,11 +36,13 @@ img.avatar {
     border-color: #171717;
     max-width: 14%;
     border-radius: 30% 5%;
+    background-color: #EDEDED;
 }
 
 img.avatar:hover {
     max-width: 15%;
     width: 15%;
+    transition: 2s;
 }
 
 img.smallcircle {
@@ -76,4 +78,13 @@ img.smallcircle {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5%;
+}
+
+/* IDs */
+
+#my_presentation {
+    background-image: url("../images/botw_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
