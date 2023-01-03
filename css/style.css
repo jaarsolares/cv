@@ -42,7 +42,7 @@ img.avatar {
 img.avatar:hover {
     max-width: 15%;
     width: 15%;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 img.smallcircle {
