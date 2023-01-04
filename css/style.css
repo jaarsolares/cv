@@ -1,5 +1,5 @@
 hr {
-    border-color: grey;
+    border-color: #000000;
     border-width: 10px;
     border-style: none;
     border-top-style: dotted;
@@ -11,11 +11,11 @@ h1 {
 }
 
 h2 {
-    color: #444444;
+    color: #426887;
 }
 
 h3 {
-    color: #DA0037;
+    color: #de5540;
 }
 
 body {
@@ -23,9 +23,38 @@ body {
     padding-top: 0%;
     padding-left: 3%;
     padding-right: 3%;
-    padding-bottom: 3%;
     background-color: #EDEDED;
     font-family: sans-serif;
+}
+
+footer {
+    background-color: #171717;
+    min-width: 100%;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: -3%;
+    margin-right: -3%;
+    margin-top: 4%;
+    color: #EDEDED;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    border-radius: 28px;
+    border-style: none;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #426887;
+    width: auto;
+    padding: 1% 2%;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #8aa7be;
+    color: #000000;
+    cursor: grab;
 }
 
 /* Class selectors */
@@ -48,12 +77,7 @@ img.avatar:hover {
 
 img.smallcircle {
     margin: 0;
-    border: dashed;
-    border-width: 4px;
-    border-color: #171717;
-    padding: 5px;
-    width: 5%;
-    border-radius: 50%;
+    width: 10%;
 }
 
 .page-box {
